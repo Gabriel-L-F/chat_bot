@@ -1,0 +1,26 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  background: #f5f0e8;
+  color: #2a2420;
+}
+
+:root {
+  --bg: #f5f0e8;
+  --bg2: #ede8df;
+  --sidebar-bg: #faf7f2;
+  --border: #ddd8cc;
+  --accent: #c0622a;
+  --accent-light: #f0e4d8;
+  --text: #2a2420;
+  --text-muted: #8a8078;
+  --bubble-user: #2a2420;
+  --bubble-user-text: #faf7f2;
+  --bubble-model: #ffffff;
+  --shadow: 0 2px 12px rgba(60,40,20,0.08);
+}
